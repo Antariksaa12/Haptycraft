@@ -32,8 +32,11 @@
                             <a class="nav-link fs-8 active" aria-current="page" href="#home"
                                 style="font-weight:bold">Home</a>
                         </li>
-
-                        <li class="nav-item dropdown">
+                        <li class="kategori">
+                            <a class="nav-link fs-8 active" aria-current="page" href="#categories"
+                                style="font-weight:bold">Product</a>
+                        </li>
+                        <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle fs-8" href="#categories" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false" style="font-weight:bold">
                                 Categories
@@ -41,16 +44,19 @@
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#categories" style="font-weight:bold">Bracelet</a>
                                 </li>
-                                <li><a class="dropdown-item" href="#categories" style="font-weight:bold">Ring</a></li>
-                            </ul>
+                                <li><a class="dropdown-item" href="#categories" style="font-weight:bold">Ring</a>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link fs-8" href="#contact" style="font-weight:bold">Contact Us</a>
-                        </li>
                         </li>
                     </ul>
                     <div class="d-flex align-items-center justify-content-around">
                         <button class="btn btn-outline-dark" type="submit"
-                            style="background-color: #FFBF00; font-weight:bold">Login</button>
+                            style="background-color: #FFBF00; font-weight:bold">
+                            <a href="{{route('login')}}">
+                                Login
+                            </a>
+                        </button>
                         <div class="notif">
                             <a href="#" class="fs-5">
                                 <i class="fa-solid icon-nav fa-bag-shopping ms-3 "></i>
@@ -85,8 +91,9 @@
                 </p>
                 <div class="klikan">
                     <button class="btn-indx1"><a href="#categories"
-                            style="color: black; font-size:20px">Catalog</a></button>
-                    <button class="btn-indx2"><a href="#contact" style="color: black; font-size:20px;">Contact
+                            style="color: black; font-size:20px; font-weight:bold">Catalog</a></button>
+                    <button class="btn-indx2"><a href="#contact"
+                            style="color: black; font-size:20px; font-weight:bold">Contact
                             Us</a></button>
                 </div>
             </div>
@@ -111,40 +118,35 @@
                     kenakan. Bersama kami, mari temukan perhiasan yang mencerminkan kepribadian Anda dan mengabadikan
                     kenangan berharga dalam gaya yang tak terlupakan.</p>
             </div>
-            <div class="container2" id="categories">
+            <div class="container2" id="categories" style="align-items:center">
                 <div class="bracelet1">
                     <img src="{{asset('assets/image/g1.png')}}" alt="Bracelet" class="bracelet-image"
-                        style="width: 70%; margin-left:15px">
+                        style="width: 55%; margin-left:50px">
                     <div class="bracelet-info">
                         <h3 class="bracelet-title" style="text-align:center">Amethyst Gold</h3>
                         <p style="text-align:justify">Amethyst adalah sejenis batu permata berwarna ungu yang sering
                             dikaitkan dengan ketenangan
-                            dan kebijaksanaan. Batu ini dipercaya dapat memberikan ketenangan pikiran dan membantu dalam
-                            meditasi.</p>
+                            dan kebijaksanaan.</p>
                         <p class="bracelet-author">By Haptycraft</p>
                     </div>
                 </div>
                 <div class="bracelet2">
                     <img src="{{asset('assets/image/g2.png')}}" alt="Bracelet" class="bracelet-image"
-                        style="width: 70%; margin-left:15%">
+                        style="width: 55%; margin-left:50px">
                     <div class="bracelet-info">
-                        <h3 class="bracelet-title" style="text-align:center">Labradorite Elegance</h3>
+                        <h3 class="bracelet-title" style="text-align:center">Labradorite</h3>
                         <p style="text-align:justify">Labradorite adalah batu permata yang sering dianggap sebagai batu
-                            pelindung. Diyakini bahwa labradorite dapat melindungi pemakainya dari energi negatif dan
-                            memberikan kekuatan serta keberanian. Selain itu, batu ini juga dikenal untuk memperkuat
-                            intuisi dan membantu dalam transformasi pribadi.</p>
+                            pelindung. Diyakini bahwa labradorite dapat melindungi pemakainya dari energi negatif.</p>
                         <p class="bracelet-author">By Haptycraft</p>
                     </div>
                 </div>
                 <div class="bracelet4">
                     <img src="{{asset('assets/image/g4.png')}}" alt="Bracelet" class="bracelet-image"
-                        style="width: 70%; margin-left:15%">
+                        style="width: 55%; margin-left:50px">
                     <div class="bracelet-info">
                         <h3 class="bracelet-title" style="text-align:center">Howlite Serenity</h3>
                         <p style="text-align:justify">Howlite adalah batu yang dikenal dengan warna putih dengan urat
-                            abu-abu yang halus. Batu ini
-                            sering dikaitkan dengan ketenangan, kedamaian, dan kesabaran. Howlite diyakini dapat
-                            membantu mengurangi stres, kecemasan, dan ketegangan, serta meningkatkan kualitas tidur.</p>
+                            abu-abu yang halus.</p>
                         <p class="bracelet-author">By Haptycraft</p>
                     </div>
                 </div>
@@ -160,10 +162,11 @@
                 </div> -->
                 <div class="bracelet6">
                     <img src="{{asset('assets/image/g6.png')}}" alt="Bracelet" class="bracelet-image"
-                        style="width: 70%; margin-left:15%">
+                        style="width: 55%; margin-left:50px">
                     <div class="bracelet-info">
                         <h3 class="bracelet-title" style="text-align:center">Aventurine</h3>
-                        <p style="text-align:justify">Batu aventurine dipercaya memiliki berbagai khasiat, seperti meningkatkan kreativitas,
+                        <p style="text-align:justify">Batu aventurine dipercaya memiliki berbagai khasiat, seperti
+                            meningkatkan kreativitas,
                             optimisme, dan keberuntungan. Batu ini juga dapat membantu meredakan stres dan kecemasan.
                         </p>
                         <p class="bracelet-author">By Haptycraft</p>
@@ -221,9 +224,9 @@
 <footer style="background-color: #FFBF00; padding: 10px">
     <p style="text-align:center; color:white">&copy; 2024 Haptycraft. All right reserved.</p>
     <div class="info">
-        <p><span>Info:</span> info@getintouch.we</p>
-        <p><span>Phone:</span> +24 56 89 146</p>
-        <p><span>Address:</span> 14 Greenroad St.</p>
+        <p><span>Info:</span> antariksaa12@gmail.com</p>
+        <p><span>Phone:</span> 082119154532</p>
+        <p><span>Address:</span> Subang</p>
         <p><span>Hours:</span> 09:00-18:00</p>
     </div>
 </footer>

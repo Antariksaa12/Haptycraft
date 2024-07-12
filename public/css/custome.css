@@ -28,9 +28,10 @@ i:hover {
 }
 
 .bracelet1 {
-    max-width: 250px;
-    margin: 40px auto;
-    padding: 20px;
+    max-width: 280px;
+    height: 380px;
+    margin: 30px auto;
+    padding: 30px;
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -38,9 +39,10 @@ i:hover {
 }
 
 .bracelet2 {
-    max-width: 250px;
-    margin: 40px auto;
-    padding: 20px;
+    max-width: 280px;
+    height: 380px;
+    margin: 30px auto;
+    padding: 30px;
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -58,9 +60,10 @@ i:hover {
 } */
 
 .bracelet4 {
-    max-width: 250px;
-    margin: 40px auto;
-    padding: 20px;
+    max-width: 280px;
+    height: 380px;
+    margin: 30px auto;
+    padding: 30px;
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -78,9 +81,10 @@ i:hover {
 } */
 
 .bracelet6 {
-    max-width: 250px;
-    margin: 40px auto;
-    padding: 20px;
+    max-width: 280px;
+    height: 380px;
+    margin: 30px auto;
+    padding: 30px;
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -182,7 +186,7 @@ input[type="tel"] {
     width: 100%;
     padding: 10px;
     border: none;
-    background-color: #090909;
+    background-color: #FFBF00;
     color: white;
     border-radius: 4px;
     cursor: pointer;
@@ -242,4 +246,74 @@ input {
 }
 .lebih a:hover {
     color: black;
+}
+
+.hero {
+    background-image: url("[image of furniture]");  /* Replace with actual image URL */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+
+  .products {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .card {
+    border: none;
+    width: 350px;
+    min-height:600px ;
+    border-radius: 4vh;
+  }
+
+  .card-img-top {
+    max-width: 280px;
+    height: 380px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #d3d3d3;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4vh;
+  }
+  .salam {
+    font-family: Montserrat;
+    color: #fff;
+  }
+
+  .card-body {
+    font-family: Montserrat;
+  }
+.card-title {
+    text-align: center;
+    font-size: 28px;
+}
+.card-text {
+    text-align:justify;
+}
+.container3{
+    font-family: Montserrat;
+    font-weight: bold;
+}
+.card2 {
+    border: none;
+    width: 350px;
+    min-height:600px ;
+    border-radius: 4vh;
 }

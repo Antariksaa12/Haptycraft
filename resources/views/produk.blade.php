@@ -29,19 +29,28 @@
                 <div class="collapse navbar-collapse justify-content-end gap-4" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link fs-8 active" aria-current="page" href="{{route('welcome')}}"
+                            <a class="nav-link fs-8 active" aria-current="page" href="{{route('home')}}"
                                 style="font-weight:bold">Home</a>
                         </li>
-                        <li class="kategori">
-                            <a class="nav-link fs-8 active" aria-current="page" href="#categories"
-                                style="font-weight:bold">Product</a>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle fs-8" href="#categories" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false" style="font-weight:bold">
+                                Categories
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#categories" style="font-weight:bold">Bracelet</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#categories" style="font-weight:bold">Ring</a></li>
+                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link fs-8" href="#contact" style="font-weight:bold">Contact Us</a>
                         </li>
-                        <a class="nav-link fs-8" href="#contact" style="font-weight:bold">Contact Us</a>
                         </li>
                     </ul>
                     <div class="d-flex align-items-center justify-content-around">
                         <button class="btn btn-outline-dark" type="submit"
-                            style="background-color: #FFBF00; font-weight:bold">User</button>
+                            style="background-color: #FFBF00; font-weight:bold">Login</button>
                         <div class="notif">
                             <a href="{{route('keranjang')}}" class="fs-5">
                                 <i class="fa-solid icon-nav fa-bag-shopping ms-3 "></i>
@@ -54,133 +63,14 @@
         </nav>
     </header>
     <main style="background-color: #365E32; width:100%">
-        <section class="hero">
-            <div class="container3">
-                <h1 style="font-weight:bold">Liven up your day with Haptycraft!</h1>
-                <p>Get up to 36% off on seleceted items!</p>
-            </div>
-        </section>
-        <div class="salam">
-            <h2 style="margin-left:50px; font-weight:bold">Product from Haptycraft</h2>
-        </div>
-        <section class="products" id="prod">
-            <div class="container">
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col">
-                        <div class="card">
-                            <img src="{{asset('assets/image/g3.png')}}" class="card-img-top" alt="Product 1">
-                            <div class="card-body">
-                                <h5 class="card-title" style="font-weight:bold">Star Night</h5>
-                                <p class="card-text">Seperti bintang di langit malam yang melambangkan kemewahan. </p>
-                                <p class="card-harga">Rp100.000</p>
-                                <a href="#prod" class="btn btn-primary">Add To Chart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="{{asset('assets/image/c1.png')}}" class="card-img-top" alt="Product 2">
-                            <div class="card-body">
-                                <h5 class="card-title" style="font-weight:bold">Everlasting Love</h5>
-                                <p class="card-text">The diamond, represents the unwavering love that will withstand the test of time.</p>
-                                <p class="card-harga">Rp150.000</p> <a href="#prod" class="btn btn-primary">Add To Chart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="{{asset('assets/image/g7.png')}}" class="card-img-top" alt="Product 3">
-                            <div class="card-body">
-                                <h5 class="card-title" style="font-weight:bold">Graceful Embrace</h5>
-                                <p class="card-text">Symbolizing the couple's refined taste and sophisticated style.</p>
-                                <p class="card-harga">Rp200.000</p> <a href="#prod" class="btn btn-primary">Add To Chart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="{{asset('assets/image/c2.png')}}" class="card-img-top" alt="Product 4">
-                            <div class="card-body">
-                                <h5 class="card-title" style="font-weight:bold">Enchanted Sparkle</h5>
-                                <p class="card-text">This name captures the brilliance of the diamond, reminiscent of a magical enchantment.</p>
-                                <p class="card-harga">Rp500.000</p> <a href="#prod" class="btn btn-primary">Add To Chart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="{{asset('assets/image/g8.png')}}" class="card-img-top" alt="Product 5">
-                            <div class="card-body">
-                                <h5 class="card-title" style="font-weight:bold">Product Name 4</h5>
-                                <p class="card-text">Description for product 4</p>
-                                <p class="card-harga">Price</p> <a href="#prod" class="btn btn-primary">Add To Chart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="{{asset('assets/image/c3.png')}}" class="card-img-top" alt="Product 6">
-                            <div class="card-body">
-                                <h5 class="card-title" style="font-weight:bold">Product Name 4</h5>
-                                <p class="card-text">Description for product 4</p>
-                                <p class="card-harga">Price</p> <a href="#prod" class="btn btn-primary">Add To Chart</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        </div>
-        </div>
-        </section>
-        <div class="Contact-Us" id="contact" style="min-height:100vh">
-            <h1 class="contact-title" style="text-align:left; font-size:40px; font-weight:bold">Contact US</h1>
-            <div class="isi3">
-                <p>Kami di Haptycraft sangat menghargai masukan dan pertanyaan dari Anda. Jika Anda memiliki pertanyaan
-                    seputar layanan kami, ingin memberikan saran, atau membutuhkan bantuan, tim kami siap membantu. Anda
-                    dapat menghubungi kami melalui telepon, email, atau langsung datang ke kantor kami di alamat yang
-                    tertera di bawah ini. Kami juga menyediakan formulir kontak di situs ini untuk memudahkan Anda dalam
-                    menyampaikan pesan. Setiap pesan yang Anda kirimkan sangat berarti bagi kami dan akan kami tanggapi
-                    secepat mungkin. Terima kasih telah menghubungi Haptycraft!</p>
-            </div>
-            <section id="contact">
-                <div class="contact-detail">
-                    <form action="">
-                        <h1>Tell us your problem</h1>
-                        <div class="form-group">
-                            <div id="input-name" class="input-group">
-                                <p><label for="name">Name</label></p>
-                                <input type="text" id="name">
-                            </div>
-                            <div id="input-subject" class="input-group">
-                                <p><label for="subject">Subject</label></p>
-                                <input type="text" id="subject">
-                            </div>
-                            <div id="input-email" class="input-group">
-                                <p><label for="email">Email</label></p>
-                                <input type="email" id="email">
-                            </div>
-                            <div id="input-phone" class="input-group">
-                                <p><label for="phone">Phone Number</label></p>
-                                <input type="tel" id="phone">
-                            </div>
-                            <div id="input-message" class="input-group">
-                                <p><label for="message">Message</label></p>
-                                <input type="text" id="message">
-                            </div>
-                        </div>
-                        <button class="btn-submit">Submit</button>
-                    </form>
-                </div>
-            </section>
     </main>
 </body>
 <footer style="background-color: #FFBF00; padding: 10px">
     <p style="text-align:center; color:white">&copy; 2024 Haptycraft. All right reserved.</p>
     <div class="info">
-        <p><span>Info:</span> antariksaa12@gmail.com</p>
-        <p><span>Phone:</span> 082119154532</p>
-        <p><span>Address:</span> Subang</p>
+        <p><span>Info:</span> info@getintouch.we</p>
+        <p><span>Phone:</span> +24 56 89 146</p>
+        <p><span>Address:</span> 14 Greenroad St.</p>
         <p><span>Hours:</span> 09:00-18:00</p>
     </div>
 </footer>

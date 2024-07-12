@@ -20,7 +20,7 @@
     <header>
         <nav class="navbar navbar-dark navbar-expand-lg" style="background-color: #365E32;">
             <div class="container">
-                <a class="navbar-brand fs-6" href="#" style="font-weight:bold;">HAPTYCRAFT</a>
+                <a class="navbar-brand fs-6" href="/" style="font-weight:bold;">HAPTYCRAFT</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -32,20 +32,31 @@
                             <a class="nav-link fs-8 active" aria-current="page" href="#home"
                                 style="font-weight:bold">Home</a>
                         </li>
+<<<<<<< Updated upstream
                         <li class="kategori">
                             <a class="nav-link fs-8 active" aria-current="page" href="#categories"
                                 style="font-weight:bold">Product</a>
                         </li>
                         <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle fs-8" href="#categories" role="button"
+=======
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle fs-8" href="categories" role="button"
+>>>>>>> Stashed changes
                                 data-bs-toggle="dropdown" aria-expanded="false" style="font-weight:bold">
                                 Categories
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#categories" style="font-weight:bold">Bracelet</a>
+                                <li><a class="dropdown-item" href="categories" style="font-weight:bold">Bracelet</a>
                                 </li>
+<<<<<<< Updated upstream
                                 <li><a class="dropdown-item" href="#categories" style="font-weight:bold">Ring</a>
                         </li> -->
+=======
+                                <li><a class="dropdown-item" href="categories" style="font-weight:bold">Ring</a></li>
+                            </ul>
+>>>>>>> Stashed changes
                         <li class="nav-item">
                             <a class="nav-link fs-8" href="#contact" style="font-weight:bold">Contact Us</a>
                         </li>

@@ -20,7 +20,7 @@
     <header>
         <nav class="navbar navbar-dark navbar-expand-lg" style="background-color: #365E32;">
             <div class="container">
-                <a class="navbar-brand fs-6" href="#" style="font-weight:bold">HAPTYCRAFT</a>
+                <a class="navbar-brand fs-6" href="/" style="font-weight:bold">HAPTYCRAFT</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -54,6 +54,7 @@
         </nav>
     </header>
     <main style="background-color: #365E32; width:100%">
+<<<<<<< Updated upstream
         <section class="hero">
             <div class="container3">
                 <h1 style="font-weight:bold">Liven up your day with Haptycraft!</h1>
@@ -125,10 +126,23 @@
                                 <p class="card-text">Description for product 4</p>
                                 <p class="card-harga">Price</p> <a href="#prod" class="btn btn-primary">Add To Chart</a>
                             </div>
+=======
+        <div class="row" style="max-width: 80%; margin:0 auto;">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="{{asset('assets/image/p1.jpg')}}" alt="" style="max-width:100%; border-radius:5%;">
+                        <h5 class="card-title">Asbak perkasa</h5>
+                        <p class="card-text">perhiasan yang wajib dimiliki klee harus beli ini klee</p>
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-price">Rp 666.000</h5>
+                            <a href="#" class="btn btn-primary">Beli Sekarang</a>
+>>>>>>> Stashed changes
                         </div>
                     </div>
                 </div>
             </div>
+<<<<<<< Updated upstream
         </section>
         </div>
         </div>
@@ -173,16 +187,54 @@
                     </form>
                 </div>
             </section>
+=======
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="{{asset('assets/image/p1.jpg')}}" alt="" style="max-width:100%; border-radius:5%;">
+                        <h5 class="card-title">Asbak perkasa</h5>
+                        <p class="card-text">perhiasan yang wajib dimiliki klee harus beli ini klee</p>
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-price">Rp 666.000</h5>
+                            <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="{{asset('assets/image/p1.jpg')}}" alt="" style="max-width:100%; border-radius:5%;">
+                        <h5 class="card-title">Asbak perkasa</h5>
+                        <p class="card-text">perhiasan yang wajib dimiliki klee harus beli ini klee</p>
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-price">Rp 666.000</h5>
+                            <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+>>>>>>> Stashed changes
     </main>
 </body>
 <footer style="background-color: #FFBF00; padding: 10px">
     <p style="text-align:center; color:white">&copy; 2024 Haptycraft. All right reserved.</p>
+<<<<<<< Updated upstream
     <div class="info">
         <p><span>Info:</span> antariksaa12@gmail.com</p>
         <p><span>Phone:</span> 082119154532</p>
         <p><span>Address:</span> Subang</p>
+=======
+    <!-- <div class="info">
+        <p><span>Info:</span> info@getintouch.we</p>
+        <p><span>Phone:</span> +24 56 89 146</p>
+        <p><span>Address:</span> 14 Greenroad St.</p>
+>>>>>>> Stashed changes
         <p><span>Hours:</span> 09:00-18:00</p>
-    </div>
+    </div> -->
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
